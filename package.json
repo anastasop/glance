@@ -1,0 +1,27 @@
+{
+  "name": "glance",
+  "version": "0.0.1",
+  "description": "A command line tool for mozilla readability",
+  "main": "main.js",
+  "bin": "./main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anastasop/glance.git"
+  },
+  "author": "Spyros Anastasopoulos",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/anastasop/glance/issues"
+  },
+  "homepage": "https://github.com/anastasop/glance#readme",
+  "dependencies": {
+    "@mozilla/readability": "^0.3.0",
+    "axios": "^0.20.0",
+    "colors": "^1.4.0",
+    "jsdom": "^16.4.0",
+    "yargs": "^16.0.3"
+  }
+}
